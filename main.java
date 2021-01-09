@@ -156,7 +156,7 @@ class Login extends Template implements ActionListener, Runnable
         {
             if(text2.isFocusOwner())
             {
-                if(Tootkit.getDefaultToolkit.getLockingKeyState(KeyEvent.VK_CAPS_LOCK))
+                if(Toolkit.getDefaultToolkit().getLockingKeyState(KeyEvent.VK_CAPS_LOCK))
                 {
                     text2.setToolTipText("Warning : CAPS LOCK is on");
                 }

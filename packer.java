@@ -1,6 +1,4 @@
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -89,7 +87,7 @@ public class Packer
             temp = Header.getBytes();
 
             instream = new FileInputStream(filePath);
-            outstream.write(temp, 0, length);
+            outstream.write(temp, 0, temp.length);
 
             while ((length = instream.read(buffer)) > 0)
             {
