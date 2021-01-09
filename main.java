@@ -78,8 +78,8 @@ class Login extends Template implements ActionListener, Runnable
         _content.add(label3);
         _content.add(SUBMIT);
 
-        Pack();
-        Validate();
+        pack();
+        validate();
         ClockHome();
         setVisible(true);
         this.setSize(500, 500);

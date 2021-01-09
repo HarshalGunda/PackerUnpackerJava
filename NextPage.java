@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 
 class NextPage extends Template implements ActionListener
 {
-    JLabel label;
+    JLabel label, title;
     JButton pack, unpack;
 
     NextPage(String value)
